@@ -1,0 +1,55 @@
+.control_button {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png');
+  width: 79px;
+  height: 79px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  text-indent: -1000px;
+  cursor: pointer;
+}
+.clockwise {
+  background-position: 160px 0;
+}
+.counter_clockwise {
+  background-position: 240px 0;
+}
+.undo {
+  background-position: 80px 240px;
+}
+.run {
+  background-position: 80px 0;
+}
+#map td {
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+}
+.upspaceship {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png') 3px -80px;
+}
+.rightspaceship {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png') -37px -80px;
+}
+.downspaceship {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png') -37px -117px;
+}
+.leftspaceship {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png') 0px -117px;
+}
+.planet {
+  background: url('https://i.ibb.co/pzPT7nQ/sprites.png') -80px -80px;
+}
+#code .control_button {
+  width: 40px;
+  height: 40px;
+}
+#code .move_forward {
+  background-position: 160px 80px;
+}
+#code .clockwise {
+  background-position: 120px 40px;
+}
+#code .counter_clockwise {
+  background-position: 160px 40px;
+}

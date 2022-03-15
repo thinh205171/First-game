@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="control">
+  <div onclick='addControl("F")' id=mf class='move_forward control_button' title="Move forward">F</div>
+  <div onclick='addControl("C")' id=cw class="clockwise control_button" title="Turn Clockwise">C</div>
+  <div onclick='addControl("W")' id=cww class="counter_clockwise control_button" title="Turn Counter Clockwise">W</div>
+  <div onclick=undo() id=u class="undo control_button" title="Undo">X</div>
+  <div onclick=run() id=r class="run control_button" title="Run">R</div>
+</div>
+<div id="code">
+  
+</div>
+<div id="map">
+ 
+  <script src="main.js"></script>
+</div>
+</body>
+</html>
